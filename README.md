@@ -2,9 +2,10 @@
 Simple example of using Queues with Azure Service Bus
 
 ## Getting Started
-Create an azure service bus namespace (free tier will suffice).
-Create 2 Shared Access Signatures for the namespace, 1 for the Sender and 1 for the Reciever.
-Cread a privateSettings.config file in the root of the src folder which holds the connection string to your service bus namespace as well the keys and names of the Shared Access Signatures.
+* Create an azure service bus namespace (free tier will suffice).
+* Create 2 Shared Access Signatures for the namespace, 1 for the Sender and 1 for the Reciever.
+* Create a privateSettings.config file in the root of the src folder which holds the connection string to your service bus namespace as well as the keys and names of the Shared Access Signatures.
+
 Example:
 ```
 <?xml version="1.0" encoding="utf-8"?>
