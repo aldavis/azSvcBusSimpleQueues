@@ -1,5 +1,5 @@
-# die-hard
-Simple example of using Queues with Azure Service Bus
+
+# Simple example of using Queues with Azure Service Bus
 
 ## Getting Started
 * Create an azure service bus namespace (free tier will suffice).
